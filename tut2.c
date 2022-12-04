@@ -6,10 +6,10 @@ int main()
     int a,b
     
     printf("enter a number");
-    scanf("%d",a);
+    scanf("%d",&a);
 
     printf("enter a number");
-    scanf("%d,b");
+    scanf("%d",&b);
 
     printf("the addition is %d",a+b);
     printf("the subtraction is %d",a-b);
