@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int a=6;
+
+     printf("the table of 6 is\n");
+     printf("%d*1\n",a*1);
+     printf("%d*2\n",a*2);
+     printf("%d*3\n",a*3);
+     printf("%d*4\n",a*4);
+     printf("%d*5\n",a*5);
+     printf("%d*6\n",a*6);
+     printf("%d*7\n",a*7);
+     printf("%d*8\n",a*8);
+     printf("%d*9\n",a*9);
+     printf("%d*10\n",a*10);
+     
+     
+    
+
+
+   return 0;
+
+}
