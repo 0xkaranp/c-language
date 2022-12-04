@@ -11,5 +11,5 @@ int main()
   scanf("%d",b;)
  
   printf("the addition of numbers is")
-  scanf("%d",a+b)
+  scanf("%d",a+b);
 }
