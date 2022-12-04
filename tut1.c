@@ -12,4 +12,6 @@ int main()
  
   printf("the addition of numbers is")
   scanf("%d",a+b);
+  
+  return 0;
 }
