@@ -6,7 +6,7 @@ int main()
     int a;
     int amount,count;
     int r,c,b;
-    while(a<=100000)
+    while(a<=100000) //acutally it should be a<=50 because of user has parking limit of 50 only but due some compiler errors i puted 100000 here//
     {
     printf("Enter 1 for ricshaw\n");
     printf("Enter 2 for cars\n");
