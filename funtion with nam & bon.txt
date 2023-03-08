@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+//funtion declaration 
+void printnamaste();
+void printbonjour();
+
+int main()
+{
+    int a;
+    printf("Choose 1 for indian\nChoose 2 for french\n");
+    scanf("%d",&a);
+    if(a==1){
+        //funtion calling
+         printnamaste();
+         return 0;
+    }
+    else{
+         //funtion calling
+        printbonjour();
+        return 0;
+    }
+}
+
+//funtion defination
+
+void printnamaste()
+{
+    printf("Namsate");
+}
+void printbonjour()
+{
+    printf("Bonjour");
+}
