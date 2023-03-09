@@ -1,0 +1,18 @@
+#include <stdio.h>
+// funtion declaration
+int sum(int n);
+
+int main(){
+// funtion calling
+   printf("The sum is %d",sum(5));
+   return 0;
+}
+// recursion funtion
+int sum(int n){
+    if(n==1)
+    {return 1;}
+    int sumnm1=sum(n-1); // sum of 1 to n
+    int sumn=sumnm1+n;
+    return sumn;
+    
+}
